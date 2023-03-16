@@ -1,0 +1,257 @@
+{
+
+  "products": {
+     
+      "Man": [{
+              "Name": "Jet Black Half Sleeve T-Shirt",
+              "price": "399",
+              "membership": "269 for Tribe Member",
+              "img": "https://images.bewakoof.com/t320/black-aop-half-n-half-street-wear-t-shirt-425021-1635930529-1.jpg"
+          },
+          {
+            "Name": "Black Aop Half Sleeve T-Shirt",
+            "price": "499",
+            "membership": "269 for Tribe Member",
+              "img": "https://images.bewakoof.com/t320/jet-black-half-sleeve-t-shirt-106-1637159826-5.jpg"
+          },
+          {
+            "Name": "White Half Sleeve T-Shirt",
+            "price": "401",
+            "membership": "269 for Tribe Member",
+              "img": "https://images.bewakoof.com/t320/white-half-sleeve-t-shirt-105-1637995614-1.jpg"
+          },
+          {
+            "Name": "White Round Half Sleeve T-Shirt",
+            "price": "299",
+            "membership": "249 for Tribe Member",
+              "img": "https://images.bewakoof.com/t320/navy-blue-half-sleeve-t-shirt-115-1639137544-1.jpg"
+          },
+          {
+            "Name": "Navy Blue Half Sleeve T-Shirt",
+            "price": "349",
+            "membership": "269 for Tribe Member",
+              "img": "https://images.bewakoof.com/t320/storm-green-sleeve-hem-panel-half-sleeve-t-shirt-436147-1635600563-1.jpg"
+          },
+          {
+            "Name": "Snazzy Green Half Sleeve T-Shirt",
+            "price": "299",
+            "membership": "269 for Tribe Member",
+            "img": "https://images.bewakoof.com/t320/peageant-blue-round-neck-varsity-h-s-t-shirt-men-s-plain-round-neck-varsity-h-s-t-shirt-315157-1620400834.jpg"
+        },
+        {
+          "Name": "Pageant Half Sleeve T-Shirt",
+          "price": "499",
+          "membership": "269 for Tribe Member",
+            "img": "https://images.bewakoof.com/t320/work-hard-box-half-sleeve-t-shirt-273063-1637855031-1.jpg"
+        },
+        {
+          "Name": "Black Aop Half Sleeve T-Shirt",
+          "price": "499",
+          "membership": "269 for Tribe Member",
+            "img": "https://images.bewakoof.com/t320/olive-camo-street-wear-t-shirt-425022-1635929495-1.jpg"
+        },
+        {
+          "Name": "Men's color blooooc joggers",
+          "price": "499",
+          "membership": "269 for Tribe Member",
+            "img": "https://images.bewakoof.com/t320/campus-sutra-men-blue-solid-slim-fit-jeans-452049-1637595107-1.JPG"
+        },
+        {
+          "Name": "Work Hard Box Half T-Shirt",
+          "price": "499",
+          "membership": "269 for Tribe Member",
+          "img": "https://images.bewakoof.com/t320/campus-sutra-men-blue-solid-slim-fit-jeans-452047-1637594756-1.JPG"
+        },
+
+        {
+          "Name": "Kakashi Casual jogger Pants",
+          "price": "999",
+          "membership": "269 for Tribe Member",
+          "img": "https://images.bewakoof.com/t320/campus-sutra-men-blue-solid-regular-fit-jeans-452081-1637594653-1.JPG"
+      },
+      {
+        "Name": "Bleach Casual jogger pants",
+        "price": "499",
+        "membership": "269 for Tribe Member",
+          "img": "https://images.bewakoof.com/t320/campus-sutra-men-blue-solid-slim-fit-jeans-452047-1637594756-1.JPG"
+      },
+      {
+        "Name": "Deep lake solid joggers Aw21",
+        "price": "1299",
+        "membership": "269 for Tribe Member",
+          "img": "https://images.bewakoof.com/t320/campus-sutra-men-blue-solid-slim-fit-jeans-452049-1637595107-1.JPG"
+      },
+      {
+        "Name": "Men's color blooooc joggers",
+        "price": "499",
+        "membership": "269 for Tribe Member",
+          "img": "https://images.bewakoof.com/t320/campus-sutra-men-blue-solid-slim-fit-jeans-452049-1637595107-1.JPG"
+      },
+      {
+        "Name": "jet black men's ottoman joggers",
+        "price": "1499",
+        "membership": "269 for Tribe Member",
+          "img": "https://images.bewakoof.com/t320/impackt-men-s-blue-washed-mid-rise-tapered-fit-jeans-453023-1638189547-1.jpg"
+      },
+      {
+        "Name": "Grey Melange solid",
+        "price": "1499",
+        "membership": "269 for Tribe Member",
+        "img": "https://images.bewakoof.com/t320/campus-sutra-men-blue-printed-regular-fit-jeans-452085-1637594570-1.JPG"
+    },
+    {
+      "Name": "Men's color Joggers",
+      "price": "1499",
+      "membership": "269 for Tribe Member",
+        "img": "https://images.bewakoof.com/t320/work-hard-box-half-sleeve-t-shirt-273063-1637855031-1.jpg"
+    },
+    {
+      "Name": "men's Color block joggers",
+      "price": "899",
+      "membership": "269 for Tribe Member",
+        "img": "https://images.bewakoof.com/t320/campus-sutra-men-blue-solid-slim-fit-jeans-452046-1637594944-1.JPG"
+    },
+    {
+      "Name": "cautiooondark shaddddojogger",
+      "price": "999",
+      "membership": "269 for Tribe Member",
+        "img": "https://images.bewakoof.com/t320/fugazee-men-s-blue-faces-lasered-cropped-slim-fit-denim-jeans-455170-1638964017-1.jpg"
+    },
+    {
+      "Name": "Men's plain color bloc cargo",
+      "price": "1499",
+      "membership": "269 for Tribe Member",
+        "img": "https://images.bewakoof.com/t320/fugazee-men-s-desert-camo-military-tactical-cargo-slim-fit-denim-jeans-455165-1638963996-1.jpg"
+    },{
+      "Name": "White Round Half Sleeve T-Shirt",
+      "price": "299",
+      "membership": "249 for Tribe Member",
+        "img": "https://images.bewakoof.com/t320/navy-blue-half-sleeve-t-shirt-115-1639137544-1.jpg"
+    }
+  ],
+
+    "Woman": [{
+              "Name": "Jet Black Half Sleeve T-Shirt",
+              "price": "399",
+              "membership": "269 for Tribe Member",
+              "img": "https://images.bewakoof.com/t320/jet-black-round-neck-3-4th-sleeve-t-shirt-women-s-plain-round-neck-3-4-sleeve-t-shirts-105769-1531304631.jpg"
+          },
+          {
+            "Name": "Pengement Blue round",
+            "price": "499",
+            "membership": "269 for Tribe Member",
+            "img": "https://images.bewakoof.com/t320/not-so-wine-plus-size-color-block-full-sleeve-t-shirt-449157-1638275229-1.jpg"
+          },
+          {
+            "Name": "BRetoro ted round t-shirt",
+            "price": "401",
+            "membership": "269 for Tribe Member",
+              "img": "https://images.bewakoof.com/t320/peageant-blue-round-neck-3-4-sleeve-t-shirts-women-s-plain-round-neck-3-4-sleeve-t-shirts-379710-1630429427-1.jpg"
+          },
+          {
+            "Name": "Nibum Grayy  round t-shirt",
+            "price": "299",
+            "membership": "249 for Tribe Member",
+              "img": "https://images.bewakoof.com/t320/retro-red-3-4-sleeve-round-neck-t-shirt-343120-1635870049-1.jpg"
+          },
+          {
+            "Name": "Navy Blue Half Sleeve T-Shirt",
+            "price": "349",
+            "membership": "269 for Tribe Member",
+            "img": "https://images.bewakoof.com/t320/killer-brown-high-neck-t-shirt-406680-1634895100-1.jpg"
+          },
+          {
+            "Name": "Snazzy Green Half Sleeve T-Shirt",
+            "price": "299",
+            "membership": "269 for Tribe Member",
+            "img": "https://images.bewakoof.com/t320/princess-squad-round-neck-3-4-sleeve-t-shirts-334709-1633932541-1.jpg"
+        },
+        {
+          "Name": "Pageant Half Sleeve T-Shirt",
+          "price": "499",
+          "membership": "269 for Tribe Member",
+            "img": "https://images.bewakoof.com/t320/work-hard-box-half-sleeve-t-shirt-273063-1637855031-1.jpg"
+        },
+        {
+          "Name": "Black Aop Half Sleeve T-Shirt",
+          "price": "499",
+          "membership": "269 for Tribe Member",
+            "img": "https://images.bewakoof.com/t320/weed-leaf-aop-boyfriend-t-shirt-307177-1638213754-6.jpg"
+        },
+        {
+          "Name": "Olive Panda CamoHalf T-Shirt",
+          "price": "499",
+          "membership": "269 for Tribe Member",
+            "img": "https://images.bewakoof.com/t320/white-women-s-puff-sleeve-t-shirt-360889-1635869934-1.jpg"
+        },
+        {
+          "Name": "Work Hard Box Half T-Shirt",
+          "price": "499",
+          "membership": "269 for Tribe Member",
+            "img": "https://images.bewakoof.com/t320/jet-black-round-neck-3-4th-sleeve-t-shirt-women-s-plain-round-neck-3-4-sleeve-t-shirts-105769-1531304631.jpg"
+        },
+
+        {
+          "Name": "Kakashi Casual jogger Pants",
+          "price": "999",
+          "membership": "269 for Tribe Member",
+          "img": "https://images.bewakoof.com/t320/jet-black-half-sleeve-t-shirt-232388-1635410396-5.jpg"
+      },
+      {
+        "Name": "Bleach Casual jogger pants",
+        "price": "499",
+        "membership": "269 for Tribe Member",
+          "img": "https://images.bewakoof.com/t320/cabaret-antique-white-black-short-top-387461-1637134021-1.jpg"
+      },
+      {
+        "Name": "Deep lake solid joggers Aw21",
+        "price": "1299",
+        "membership": "269 for Tribe Member",
+          "img": "https://images.bewakoof.com/t320/campus-sutra-men-blue-solid-slim-fit-jeans-452049-1637595107-1.JPG"
+      },
+      {
+        "Name": "Men's color blooooc joggers",
+        "price": "499",
+        "membership": "269 for Tribe Member",
+          "img": "https://images.bewakoof.com/t320/killer-brown-high-neck-t-shirt-406680-1634895100-1.jpg"
+      },
+      {
+        "Name": "jet black men's ottoman joggers",
+        "price": "499",
+        "membership": "269 for Tribe Member",
+          "img": "https://images.bewakoof.com/t320/sage-fashion-oversized-sweatshirt-aw-21-366311-1638451844-1.jpg"
+      },
+      {
+        "Name": "Grey Melange solid",
+        "price": "499",
+        "membership": "269 for Tribe Member",
+        "img": "https://images.bewakoof.com/t320/campus-sutra-men-blue-printed-regular-fit-jeans-452085-1637594570-1.JPG"
+    },
+    {
+      "Name": "Men's color Joggers",
+      "price": "1499",
+      "membership": "269 for Tribe Member",
+        "img": "https://images.bewakoof.com/t320/sakura-women-s-half-sleeve-t-shirt-387432-1634624572-1.jpg"
+    },
+    {
+      "Name": "men's Color block joggers",
+      "price": "899",
+      "membership": "269 for Tribe Member",
+        "img": "https://images.bewakoof.com/t320/campus-sutra-men-blue-solid-slim-fit-jeans-452046-1637594944-1.JPG"
+    },
+    {
+      "Name": "cautiooondark shaddddojogger",
+      "price": "999",
+      "membership": "269 for Tribe Member",
+        "img": "https://images.bewakoof.com/t320/sakura-women-s-half-sleeve-t-shirt-387432-1634624572-1.jpg"
+    },
+    {
+      "Name": "Men's plain color bloc cargo",
+      "price": "499",
+      "membership": "269 for Tribe Member",
+        "img": "https://images.bewakoof.com/t320/not-so-wine-plus-size-color-block-full-sleeve-t-shirt-449157-1638275229-1.jpg"
+    }
+  ]
+
+  }
+}

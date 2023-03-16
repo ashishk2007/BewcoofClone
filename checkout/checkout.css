@@ -1,0 +1,65 @@
+
+.checkoutTopIconWrap{
+    margin-left: 25%;
+}
+.checkOut {
+    width: 60%;
+    height: 620px;
+    margin: auto;
+    margin-top: 4%;
+    border: 1px solid #888888;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 2px #888888;
+    opacity: 0.8;
+}
+.stepTitle{
+    position: relative;
+    background-color: #fb8903;
+    margin: 0 -7px;
+    margin-top: 0.7%;
+    box-shadow: 0 -2px 8px 0 rgb(156 154 154 / 40%);
+}
+#head{
+    color: #FEFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    margin: auto;
+    width: 250px;
+}
+.form_1 {
+  width: 50%;
+  height: 10%;
+  border: none;
+  display:grid;
+  grid-gap: 5%;
+  margin: auto;
+  margin-top: 1%;
+  outline: none;
+
+}
+.a{
+    background-color: #FFFFFF;
+}
+input {
+  height: 30px;
+  outline: 0;
+  border-radius: 0;
+  border: 1px solid #b7b7b7;
+  transition: .2s;
+}
+#button2 {
+    margin-left: 30%;
+  width: 30%;
+  height: 40px;
+  background-color: #51C9A6;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  margin-top: 1%;
+  display: inline-block;
+  
+}
+.textfor{
+  font-size: 20px;
+  color: #fff;
+}

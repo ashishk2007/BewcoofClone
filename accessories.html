@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bewakoof Web Clone</title>
+  
+
+    <style>
+        .navbar{
+          width: 100%;
+          height: 60px;
+         border-bottom: 1px solid rgb(44, 43, 43);
+          display: grid;
+          grid-template-columns: 25% 30% 25% 15%;
+        }#signup{
+         margin-top: 20px;
+         color: black;
+         font-size: 20px;
+        }#cart1{
+            width: 10%;
+            margin-left: 20px;
+        }
+        #logo{
+            margin-left: 2%;
+            
+
+        }
+        #logo_web{
+          
+            margin-top: 6.5%;
+            margin-left: 50%;
+            width: 40%;
+        }
+        #category{
+            margin-top: 20px;
+            display: flex;
+            gap: 30px;
+
+        }#inputbox{
+            width: 70%;
+            height: 25px;
+            color: black;
+            font-size: 16px;
+        }#button_inputbox{
+            width: 20%;
+            height: 30px;
+        }
+        #input{
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+       .top{
+       text-align: center;
+           
+       }
+       #top1{
+           margin: 15px;
+           display: inline-block;
+       }
+     
+       #top_div1_img{
+           margin-left: 10px;
+           width: 31%;
+           height: 400px;
+       }  
+       #top_div11_img{
+           margin-left: 20px;
+           width: 31%;
+           height: 400px;
+       }  
+       #top_div2{
+           width: 95%;
+          margin-top: 20px;
+          margin-left: 30px;
+         
+       }
+       #top_div3{
+           display: grid;
+           grid-template-columns: 12%  12% 12% 12%  12% 12% 12%  12%;
+           margin-left: 23px;
+       }
+       #top_div31{
+          
+           margin-top: 20px;
+           width: 100px;
+       }
+       #top_div41{
+           text-align: center;
+       }
+       #top_div42{
+           width: 99%;
+           margin: 4px;
+       }
+       #top_div05{
+           text-align: center;
+       }
+       #top_div5{
+           margin: 25px;
+           margin-left: 9%;
+           display: grid;
+           grid-template-columns: 12% 12% 12% 12% 12% 12%;
+           grid-gap: 3%;
+       }
+       #top_div51{
+           
+           margin: 10px;
+           width: 100%;
+       }
+       #top_div52{
+           margin-top: -5px;
+         text-align: center;
+       }
+       #top_div6{
+           display: grid;
+           grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+           
+           margin: 10px;
+           margin-left: 3%;
+
+       }
+       #top_div61{
+        font-weight: 700;
+           text-align: center;
+       }
+       #top_div62{
+           gap: 20px;
+           width: 95%;
+       }
+       #top_div7{
+           margin-top: 20px;
+           margin-left: 3%;
+           display: grid;
+           grid-template-columns: 20% 20% 20% 20% 20%;
+       }
+       #top_div71{
+           width: 95%;
+       }
+       #top_div8{
+           display: grid;
+           grid-template-columns: 50% 50%;
+           margin-top: 40px;
+           margin-left: 4%;
+       }
+       #top_div81{
+           width: 95%;
+
+       }
+       #top_div9{
+           margin-left: 3%;
+           display: grid;
+           grid-template-columns: 19% 19% 19% 19% 19% ;
+       }
+       #top_div91{
+           width: 95%;
+       }
+       
+       #footer{
+           width: 100%;
+           
+           background-color: black;
+          
+       }
+       #footer_top{
+           width: 90%;
+         
+           
+           margin: 5%;
+           background-color: black;
+         border-bottom: 1px solid white;
+           display: grid;
+           grid-template-columns: 22% 22% 22% 22%;
+
+       }
+       #footer_font{
+     
+           color: rgb(239, 255, 14);
+           font-size: 24px;
+       }
+       #footer_top1{
+           color: white;
+           font-weight: 500;
+       }
+       #footer_top2{
+           margin-top: 55px;
+           color: white;
+           font-weight: 500;
+       }
+       #footer_top3{
+        margin-top: 55px;
+           color: white;
+           font-weight: 500;
+       }
+       #footer_top4{
+        margin-top: 55px;
+           color: white;
+           font-weight: 500;
+       }#footer_button{
+           width: 120px;
+           height: 28px;
+
+           background-color: rgb(217, 231, 16);
+       }#footer_input{
+           width: 200px;
+           height: 25px;
+           background-color: black;
+           border-bottom: 1px solid  rgb(217, 231, 16);;
+       }
+       #footer_middle{
+           width: 90%;
+           
+           display: grid;
+           grid-template-columns: 22% 22% 22% 22%;
+           margin: 5%;
+           
+
+       }#footer_middle1{
+           color: white;
+           
+       }#footer_middle4{
+           color: rgb(12, 180, 202);
+       }#footer_bottom{
+        width: 90%;
+        margin: 5%;
+        color: white;
+        padding-bottom: 5%;
+       } #man1{
+           color: black;
+           text-underline-offset: none;
+       }
+
+
+
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="navbar">
+        <div id="logo">
+            <a href="/index.html"><img id="logo_web" src="https://images.bewakoof.com/web/bewakoof-primary-logo-white-bg-2x-1635745564.png" alt="" ></a>
+        </div>
+       <div id="category">
+        <div >
+        <a id="man1" href="index.html"> MAN</a>
+        </div>
+        <div>
+        <a id="man1" href="women.html">WOMAN</a> 
+        </div>
+        <div>
+      <a id="man1" href="accessories.html"> MOBILE COVERS</a> 
+        </div>
+     </div>
+
+        <div id="input">
+            <input type="text" id="inputbox" placeholder="Search by Product Category" />
+            <button id="button_inputbox">Search</button>
+        </div>
+
+    <div id="signup">
+        <a id="man1" href="/Login/Signup.html">Login</a>
+        <a href="Cart/cart.html"><img id="cart1" src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/2x/external-cart-supermarket-flatart-icons-lineal-color-flatarticons.png" class="bag_filled"></a>
+        </div>
+        
+    </div>
+
+    <div class="top" >
+       <a id="man1" href="index.html"><div id="top1">MAN</div></a>
+        <a id="man1" href="women.html"><div id="top1">WOMAN</div></a>
+       <a id="man1" href="accessories.html"><div id="top1">ACCESSORIES</div></a> 
+       
+    </div>
+  
+
+   
+    <div id="top_div1">
+            <img id="top_div1_img" src="https://images.bewakoof.com/uploads/grid/app/1-x-1-banner-flipflo-1638935681.jpg" alt="">
+            <img id="top_div11_img" src="https://images.bewakoof.com/uploads/grid/app/1-x-1-banner-mobile-cover-1638935683.jpg" alt="">
+            <img id="top_div11_img" src="https://images.bewakoof.com/uploads/grid/app/1-x-1-banner-headphone-1638959400.jpg" alt="">
+    </div>
+
+    <div id="top_div3">
+        <div>
+            <img id="top_div31" src="https://images.bewakoof.com/uploads/grid/app/tod-thumbnail-buy-1-get-1-1637307128.jpg" alt="">
+            <h4>Offers</h4>
+        </div>
+        <div>
+            <img id="top_div31" src="https://images.bewakoof.com/uploads/grid/app/tod-thumbnail-best-seller-1637307127.jpg" alt="">
+            <h4>Personal Care</h4>
+        </div>
+        <div>
+            <img id="top_div31" src="https://images.bewakoof.com/uploads/grid/app/tod-thumbnail-collab-store-1637307127.jpg" alt="">
+            <h4>Pop Culture</h4>
+        </div>
+        <div>
+            <img id="top_div31" src="https://images.bewakoof.com/uploads/grid/app/tod-thumbnail-best-seller-1637307127.jpg" alt="">
+            <h4>Bestseller</h4>
+        </div>
+        <div>
+            <img id="top_div31" src="https://images.bewakoof.com/uploads/grid/app/tod-thumbnail-new-arrival-1637307130.jpg" alt="">
+            <h4>New Arrivals</h4>
+        </div>
+        <div>
+            <img id="top_div31" src="https://images.bewakoof.com/uploads/grid/app/tod-thumbnail-plus-size-1637307128.jpg" alt="">
+            <h4>Plus Size</h4>
+        </div>
+        <div>
+            <img id="top_div31" src="https://images.bewakoof.com/uploads/grid/app/tod-thumbnail-react-2-1637567115.jpg" alt="">
+            <h4>Sustainability</h4>
+        </div>
+        <div>
+            <img id="top_div31" src="https://images.bewakoof.com/uploads/grid/app/tod-thumbnail-essentials-1637307130.jpg" alt="">
+            <h4>Essentials</h4>
+        </div>
+    </div>
+
+    <h3 id="top_div05">TRENDING</h3>
+    <div id="top_div5">
+        <div>
+            <img id="top_div51" src="https://images.bewakoof.com/t320/camo-live-adjustable-women-slider-376635-1638436942-1.jpg" alt="">
+            <p id="top_div52">Printed T-shirts</p>
+        </div>
+       <div>
+       <img id="top_div51" src="https://images.bewakoof.com/t320/abs-circle-color-women-sandal-376648-1636978529-1.jpg" alt="">
+        <p id="top_div52">Vests</p>
+       </div> 
+       <div>
+         <img id="top_div51" src="https://images.bewakoof.com/t320/camo-free-adjustable-men-slider-376623-1638436949-1.jpg" alt="">
+         <p id="top_div52">Sweatshirts</p>
+       </div>
+       <div>
+         <img id="top_div51" src="https://images.bewakoof.com/t320/spooky-eye-adjustable-men-slider-376628-1638436957-1.jpg" alt="">
+          <p id="top_div52">Jackets</p>
+       </div>
+       
+      <div>
+         <img id="top_div51" src="https://images.bewakoof.com/t320/pride-lightweight-adjustable-strap-mens-slider-361104-1634717743-3.jpg" alt="">
+         <p id="top_div52">Full Sleeves</p>
+       </div>
+       <div>
+        <img id="top_div51" src="https://images.bewakoof.com/t320/zebra-women-sandal-376652-1636978751-1.jpg" alt="">
+        <p id="top_div52">Full Sleeves</p>
+      </div>
+    </div>
+ 
+   <h3 id="top_div61">POPULAR CATEGORIES</h3>
+   <div id="top_div6">
+      <div>
+         <img id="top_div62" src="https://images.bewakoof.com/uploads/grid/app/mobile-cover-1637302417.jpg" alt="">
+         <p id="top_div52">Full Sleeves</p>
+      </div>
+      <div>
+          <img id="top_div62" src="https://images.bewakoof.com/uploads/grid/app/Category-Box-Premium-Mobile-Covers-1635226272.jpg" alt="">
+          <p id="top_div52">Full Sleeves</p>
+      </div>
+      <div>
+          <img id="top_div62" src="https://images.bewakoof.com/uploads/grid/app/tod-refresh-accessories-bottom-navigation-0004-Small-Backpack-1637302419.jpg" alt="">
+          <p id="top_div52">Full Sleeves</p>
+      </div>
+      <div>
+          <img id="top_div62" src="https://images.bewakoof.com/uploads/grid/app/tod-refresh-accessories-bottom-navigation-0007-notebook--1637302420.jpg" alt="">
+          <p id="top_div52">Full Sleeves</p>
+      </div>
+      <div>
+        <img id="top_div62" src="https://images.bewakoof.com/uploads/grid/app/tod-refresh-accessories-bottom-navigation-0002-earphones-1637302418.jpg" alt="">
+        <p id="top_div52">Full Sleeves</p>
+    </div>
+    <div>
+        <img id="top_div62" src="https://images.bewakoof.com/uploads/grid/app/tod-refresh-accessories-bottom-navigation-0005-slipper-1637302419.jpg" alt="">
+     <p id="top_div52">Full Sleeves</p>
+    </div>
+    <div>
+        <img id="top_div62" src="https://images.bewakoof.com/uploads/grid/app/tod-refresh-accessories-bottom-navigation-0003-socks-1637302418.jpg" alt="">
+        <p id="top_div52">Full Sleeves</p>
+    </div>
+   </div>
+
+   <h3 id="top_div61" >WHAT'S NEW</h3>
+   <div id="top_div7">
+       <div>
+           <img id="top_div71" src="https://images.bewakoof.com/t320/white-dragon-adjustable-men-s-slider-444798-1638803211-1.jpg" alt="">
+           <p>Lilac Bloom Boyfriend T-shirt</p>
+           <p>₹349</p>
+       </div>
+       <div>
+           <img id="top_div71" src="https://images.bewakoof.com/t320/berry-candy-men-s-flip-flops-331875-1638360643-1.jpg" alt="">
+            <p>Sakura Half Sleeve T-shirt</p>
+            <p>₹499</p>
+       </div>
+       <div>
+           <img id="top_div71" src="https://images.bewakoof.com/t320/mickey-mouse-adjustable-women-s-slider-423027-1638802392-1.jpg" alt="">
+           <p>Cold Hearted Boyfriend T-shirt</p>
+           <p>₹399</p>
+       </div>
+
+       <div>
+           <img id="top_div71" src="https://images.bewakoof.com/t320/one-in-a-million-watermelon-women-s-flip-flops-334680-1638360741-1.jpg" alt="">
+           <p>Killer Brown Color Block T-shirt</p>
+           <p>₹501</p>
+       </div>
+       <div>
+           <img id="top_div71" src="https://images.bewakoof.com/t320/hit-the-highway-men-s-flip-flops-333589-1638360461-1.jpg" alt="">
+           <p>Sage Fashion oversizing T-shirt</p>
+           <p>₹449</p>
+       </div>
+
+   </div>
+
+   <h3 id="top_div61">DISCOUNT PE DISCOUNT</h3>
+   <div id="top_div8">
+       <img  id="top_div81" src="https://images.bewakoof.com/uploads/grid/app/mid-banner-tod-refresh-phone-1637312286.jpg" alt="">
+       <img id="top_div81" src="https://images.bewakoof.com/uploads/grid/app/mid-banner-tod-refresh-socks-1637312286.jpg" alt="">
+   
+   </div>
+  
+     
+   <div id="footer">
+     
+    <div id="footer_top">
+     
+      <div id="footer_top1">
+          <h3 id="footer_font">Bewakoof*</h3>
+          <p>CUSTOMER SERVICE</p>
+          <P>Contact Us</P>
+          <p>Track Order</p>
+          <p>Return Order</p>
+          <P>Cancel Order</P>
+         </div>      
+      <div id="footer_top2">
+            
+              <p>COMPANY</p>
+              <P>About Us</P>
+              <p>Terms & Conditions</p>
+              <p>Privacy Policy </p>
+              <P>Blog</P>
+        </div>
+     
+      <div id="footer_top3">
+          <p>CONNECT WITH US</p>
+          <P>4.7M People Like This</P>
+          <p>1M Followers</p>
+       
+      </div>
+      <div id="footer_top4">
+          <p>KEEP UP TO DATE</p>
+          <input type="text" id="footer_input" placeholder="spooky-eye-adjustable-men-slider-376628-1638436957-1 Enail id">
+          <button id="footer_button">SUBSCRIBE</button>
+        
+      </div>
+    </div>
+    <div id="footer_middle">
+        <div id="footer_middle1">
+          <h3>MEN'S CLOTHING</h3>
+          <p>Top Wear</p>
+          <p>Men's New Arrivals</p>
+          <p>Men's Half Sleeve T-Shirts</p>
+          <p>Men's Hoodies & Sweathshirts</p>
+          <p>Men's Printed T-shirts</p>
+          <p>Men's Vests</p>
+          <p>Men's Polo T-shirt</p>
+          <p>Men's Kurtas</p>
+          <p>Men's Shirts</p>
+          <p>Men's Nightewars</p>
+          <p>Men's Pluse Size</p>
+         
+
+          <h4>Featured</h4>
+          <p>Men's Flip Floops</p>
+          <p>Men's Slider
+          <p>Maravel T-shirt</p>
+          <p>Avengers T-shirt</p>
+          <p>Star Wars T-shirts</p>
+          <p>Batman T-shirt</p>
+          </p>
+        </div>
+        <div id="footer_middle1">
+          <h3>WOMEN'S CLOTHING</h3>
+          <p>WOMEN's Top Wear</p>
+          <p>WOMEN New Arrivals</p>
+          <p>WOMEN's Half Sleeve T-Shirts</p>
+          <p>WOMEN's Hoodies & Sweathshirts</p>
+          <p>WOMEN's Printed T-shirts</p>
+          <p>WOMEN's Vests</p>
+          <p>Woman Combo</p>
+          <p>Womems Kurtis</p>
+          <p>Women's NightWear</p>
+          <h4>Women's Bottom Wear</h4>
+          <p>Women's Pajamas</p>
+          <p>Woman Jeans</p>
+          <p>women Short's</p>
+        </div>
+        <div id="footer_middle1">
+          <h3>MOBILE COVERS</h3>
+          <p>Brands</p>
+          <p>Apple</p>
+          <p>Realme</p>
+          <p>Samsuning</p>
+          <p>Xiaomi</p>
+          <p>Vivo</p>
+          <p>Oppo</p>
+          <p>Oneplus</p>
+        </div>
+        <div id="footer_middle4">
+          <h3>FANBOOK</h3>
+          <h3>OFFERS</h3>
+          <h3>SITEMAP</h3>
+          
+        </div>
+
+    </div>
+    </div>
+  
+</body>
+</html>
